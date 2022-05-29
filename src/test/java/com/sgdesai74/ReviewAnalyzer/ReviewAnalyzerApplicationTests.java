@@ -1,13 +1,13 @@
-package com.sgdesai74.ReviewAnalyser;
+package com.sgdesai74.ReviewAnalyzer;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReviewAnalyserApplicationTests {
+class ReviewAnalyzerApplicationTests {
 
-    private ReviewAnalyserApplication analyser = new ReviewAnalyserApplication();
+    private ReviewAnalyzerApplication analyser = new ReviewAnalyzerApplication();
     @Test	 
     public void testWordCount() {     	 
    	 assertEquals(7,analyser.getWordCount("Train to win in the digital economy"));	 

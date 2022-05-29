@@ -1,10 +1,10 @@
-package com.sgdesai74.ReviewAnalyser;
+package com.sgdesai74.ReviewAnalyzer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReviewAnalyserApplication {
+public class ReviewAnalyzerApplication {
     public static double getWordCount(String review){
     	int count = 0;
   	 
@@ -15,6 +15,6 @@ public class ReviewAnalyserApplication {
    	  return count;
     }
     public static void main(String[] args) {
-   	 SpringApplication.run(ReviewAnalyserApplication.class, args);
+   	 SpringApplication.run(ReviewAnalyzerApplication.class, args);
     }
 }
